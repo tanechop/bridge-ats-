@@ -57,10 +57,10 @@ export default function Navbar() {
           ) : (
             <div className="flex items-center gap-2">
               <Link to="/login" className="px-4 py-2 text-slate-700 font-bold text-sm hover:text-surface-tint transition-colors">
-                Log In
+                Log in
               </Link>
               <Link to="/register" className="px-5 py-2.5 hero-gradient text-white rounded-full font-bold text-sm tracking-wide shadow-md hover:brightness-110 active:scale-95 transition-all">
-                Sign Up
+                Sign up
               </Link>
             </div>
           )}
