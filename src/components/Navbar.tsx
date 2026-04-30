@@ -34,9 +34,7 @@ export default function Navbar() {
           </Link>
           <nav className="hidden md:flex gap-6">
             <Link to="/" className="text-slate-900 font-semibold font-manrope text-lg tracking-tight">Home</Link>
-            {isLoggedIn && (
-              <Link to="/dashboard" className="text-slate-500 font-medium font-manrope text-lg tracking-tight hover:bg-slate-200/50 transition-colors px-3 py-1 rounded-xl">Search</Link>
-            )}
+
           </nav>
         </div>
         <div className="flex items-center gap-4">

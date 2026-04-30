@@ -71,6 +71,46 @@ export const ALL_USERS = [
   { id: 12, name: "BrandCo Talent", role: "Recruiter", email: "talent@brandco.com", registered: "Jan 3, 2025", status: "Active" },
 ];
 
+// ─── ALL SEEKERS (For Recruiter Search) ────────────────────────────────────────
+export const ALL_SEEKERS: any[] = [
+  {
+    id: 1, name: "Jean Dupont", email: "jean@mail.com", phone: "+237 655 111 222",
+    role: "Job Seeker", city: "Abidjan, CI",
+    title: "Software Engineer", yearsExp: "3–5", skills: ["JavaScript", "React", "Node.js"],
+    education: { degree: "Bachelor's", field: "Computer Science", institution: "Université de Cocody", year: 2021 },
+  },
+  {
+    id: 2, name: "Marie Cam", email: "marie@mail.com", phone: "+237 655 222 333",
+    role: "Job Seeker", city: "Dakar, SN",
+    title: "Frontend Developer", yearsExp: "1–3", skills: ["TypeScript", "Vue.js", "CSS"],
+    education: { degree: "Master's", field: "Informatics", institution: "UCAD", year: 2022 },
+  },
+  {
+    id: 3, name: "Kofi Asante", email: "kofi@mail.com", phone: "+233 244 555 666",
+    role: "Job Seeker", city: "Accra, GH",
+    title: "Backend Engineer", yearsExp: "5+", skills: ["Java", "Spring Boot", "AWS"],
+    education: { degree: "Bachelor's", field: "Software Engineering", institution: "KNUST", year: 2019 },
+  },
+  {
+    id: 4, name: "Amara Diallo", email: "amara@mail.com", phone: "+224 622 777 888",
+    role: "Job Seeker", city: "Conakry, GN",
+    title: "Marketing Specialist", yearsExp: "0–1", skills: ["SEO", "Content Marketing", "Canva"],
+    education: { degree: "In Progress", field: "Marketing", institution: "UGANC", year: 2024 },
+  },
+  {
+    id: 5, name: "Sophie Tano", email: "sophie@mail.com", phone: "+225 070 999 000",
+    role: "Job Seeker", city: "Abidjan, CI",
+    title: "Data Analyst", yearsExp: "1–3", skills: ["SQL", "Python", "Tableau"],
+    education: { degree: "Bachelor's", field: "Statistics", institution: "ENSEA", year: 2022 },
+  },
+  {
+    id: 6, name: "Issa Traore", email: "issa@mail.com", phone: "+223 777 111 222",
+    role: "Job Seeker", city: "Bamako, ML",
+    title: "Project Manager", yearsExp: "5+", skills: ["Agile", "Scrum", "Jira"],
+    education: { degree: "Master's", field: "Business Administration", institution: "USTTB", year: 2018 },
+  },
+];
+
 // ─── CV ACCESS REQUESTS ───────────────────────────────────────────────────────
 export const CV_ACCESS_REQUESTS = [
   { id: 301, recruiter: "Paul Tremblay", company: "TechCorp", candidate: "Jean Dupont", job: "Software Engineer", dateInterest: "Jan 14, 2025", status: "Pending" },

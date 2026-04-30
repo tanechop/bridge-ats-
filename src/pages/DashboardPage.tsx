@@ -53,22 +53,7 @@ export default function DashboardPage() {
         </div>
       </section>
 
-      {/* Search Bar */}
-      <section className="mb-16">
-        <div className="relative group max-w-3xl">
-          <div className="absolute inset-y-0 left-6 flex items-center pointer-events-none">
-            <Search className="text-outline" size={24} />
-          </div>
-          <input 
-            className="w-full bg-surface-container-highest border-none outline outline-2 outline-outline-variant/20 rounded-full py-6 pl-16 pr-8 text-lg focus:outline-surface-tint focus:ring-4 focus:ring-surface-tint/5 transition-all placeholder:text-outline" 
-            placeholder="Search for jobs, companies, or roles..." 
-            type="text"
-          />
-          <button className="absolute inset-y-2 right-2 px-8 rounded-full bg-hero-gradient text-white font-bold text-sm tracking-tight active:scale-95 transition-transform">
-            Discover Roles
-          </button>
-        </div>
-      </section>
+
 
       {/* Main Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
